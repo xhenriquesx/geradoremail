@@ -37,14 +37,3 @@ opcao = input("\n")#faz leitura da escolha
 for c,v in email_opcoes.items():
     if c == opcao:
         print("\nA criação de seu e-mail", v.replace(" - ",""), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
-
-"""
-    elif '2' == opcao:
-        print("\nA criação de seu e-mail", str(v[2]), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
-    elif '3' == opcao:
-        print("\nA criação de seu e-mail", str(v[3]), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
-    elif '4' == opcao:
-        print("\nA criação de seu e-mail", str(v[4]), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
-    elif '5' == opcao:
-        print("\nA criação de seu e-mail", str(v[5]), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
-"""
