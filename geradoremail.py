@@ -33,7 +33,7 @@ email_opcoes = {
     } 
 for x,v in email_opcoes.items():
     print(x,v)
-opcao = input("\n")#faz leitura da escolha
+opcao = input("\n")
 for c,v in email_opcoes.items():
     if c == opcao:
         print("\nA criação de seu e-mail", v.replace(" - ",""), "será feita nos próximos minutos. Um SMS foi enviado para 99999-9971 com a sua senha de acesso.")
